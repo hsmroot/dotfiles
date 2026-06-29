@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Outlook for Linux
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=outlook-for-linux --file-forwarding io.github.mahmoudbahaa.outlook_for_linux @@u %U @@
+Terminal=false
+Type=Application
+Icon=io.github.mahmoudbahaa.outlook_for_linux
+StartupWMClass=outlook-for-linux
+Comment=Unofficial Microsoft Outlook client for Linux using Electron. It uses the Web App and wraps it as a standalone application using Electron.
+MimeType=x-scheme-handler/msoutlook;
+Categories=Chat;Network;Office;
+X-Desktop-File-Install-Version=0.27
+X-Flatpak-RenamedFrom=outlook-for-linux.desktop;
+X-Flatpak=io.github.mahmoudbahaa.outlook_for_linux

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Proton Mail
+Exec=flatpak 'run' '--command=/app/bin/chromium' 'org.chromium.Chromium' '--profile-directory=Default' '--app-id=jnpecgipniidlgicjocehkhajgdnjekh'
+Icon=chrome-jnpecgipniidlgicjocehkhajgdnjekh-Default
+StartupWMClass=crx_jnpecgipniidlgicjocehkhajgdnjekh
+X-Flatpak-Part-Of=org.chromium.Chromium
+TryExec=/var/lib/flatpak/exports/bin/org.chromium.Chromium
