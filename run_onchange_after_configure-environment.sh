@@ -16,3 +16,7 @@ if ! grep -q "GARUDA_UPDATE_SNAP" /etc/environment; then
 fi
 
 echo "✅ System environment updated successfully!"
+echo "⚡ Injecting Nvidia Wayland hardware sync flags..."
+if ! grep -q "MUTTER_DEBUG_FORCE_EGL_STREAM" /etc/environment; then
+    echo 'MUTTER_DEBUG_FORCE_EGL_STREAM=1' | sudo tee -a /etc/environment > /dev/null
+fi

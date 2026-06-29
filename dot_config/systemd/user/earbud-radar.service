@@ -1,0 +1,11 @@
+[Unit]
+Description=Soundcore Sport X20 Event Radar
+After=bluetooth.target
+
+[Service]
+ExecStart=%h/.local/bin/earbud-radar.sh
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=default.target

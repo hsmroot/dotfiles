@@ -5,9 +5,9 @@ theme='night'
 image-dir-uri='file:///home/hsm/Documents'
 
 [Extensions]
-window-height=548
+window-height=572
 window-maximized=false
-window-width=910
+window-width=451
 
 [Geary]
 migrated-config=true
@@ -18,7 +18,7 @@ shared-folders="[<{'uuid': <'65936383-a55e-44ad-a86e-324c092a3454'>, 'path': <'/
 view='icon-view'
 window-maximized=false
 window-position=[26, 23]
-window-size=[392, 282]
+window-size=[451, 282]
 
 [calculator]
 base=10
@@ -27,11 +27,11 @@ source-units=['degree']
 target-units=['radian']
 unit-category='angle'
 window-maximized=false
-window-size=(919, 1152)
+window-size=(948, 1064)
 
 [control-center]
-last-panel='online-accounts'
-window-state=(451, 282, false)
+last-panel='wifi'
+window-state=(910, 572, false)
 
 [desktop/a11y/magnifier]
 cross-hairs-length=58
@@ -101,7 +101,7 @@ show-battery-percentage=true
 autorun-never=false
 
 [desktop/notifications]
-application-children=['org-gnome-settings', 'setup-assistant', 'garuda-toolbox', 'firedragon', 'org-mozilla-firefox', 'com-spotify-client', 'gnome-power-panel', 'gnome-about-panel', 'org-manjaro-pamac-manager', 'org-gnome-shell-extensions', 'org-onlyoffice-desktopeditors', 'com-valvesoftware-steam', 'com-github-eneshecan-whatsappforlinux', 'org-gnome-nautilus', 'com-getmailspring-mailspring', 'org-chromium-chromium', 'gnome-wellbeing-panel', 'com-visualstudio-code', 'org-gnome-boxes', 'gnome-printers-panel', 'org-gnome-shell-extensions-gsconnect-preferences', 'org-telegram-desktop', 'onedrivegui', 'org-gnome-shell-extensions-gsconnect', 'org-kde-kdeconnect-app', 'org-kde-kdeconnect-daemon', 'org-gnome-terminal', 'xdg-desktop-portal-gnome', 'com-transmissionbt-transmission', 'io-github-mahmoudbahaa-outlook-for-linux', 'org-gnome-extensions', 'com-github-ismaelmartinez-teams-for-linux', 'nordvpn-gui', 'org-gnome-screenshot', 'org-gnome-fileroller', 'org-gnome-calculator', 'org-gnome-eog', 'org-gnome-systemmonitor', 'org-gnome-evolution-alarm-notify', 'com-ticktick-ticktick', 'org-signal-signal', 'io-github-cosmic-utils-camera', 'io-github-mimbrero-whatsappdesktop', 'vlc', 'com-github-artemanufrij-playmyvideos', 'io-github-celluloid-player-celluloid', 'io-github-diegopvlk-cine', 'org-gnome-gedit', 'org-gnome-diskutility', 'org-gnome-goa-daemon', 'org-audacityteam-audacity', 'insync', 'org-standardnotes-standardnotes']
+application-children=['org-gnome-settings', 'setup-assistant', 'garuda-toolbox', 'firedragon', 'org-mozilla-firefox', 'com-spotify-client', 'gnome-power-panel', 'gnome-about-panel', 'org-manjaro-pamac-manager', 'org-gnome-shell-extensions', 'org-onlyoffice-desktopeditors', 'com-valvesoftware-steam', 'com-github-eneshecan-whatsappforlinux', 'org-gnome-nautilus', 'com-getmailspring-mailspring', 'org-chromium-chromium', 'gnome-wellbeing-panel', 'com-visualstudio-code', 'org-gnome-boxes', 'gnome-printers-panel', 'org-gnome-shell-extensions-gsconnect-preferences', 'org-telegram-desktop', 'onedrivegui', 'org-gnome-shell-extensions-gsconnect', 'org-kde-kdeconnect-app', 'org-kde-kdeconnect-daemon', 'org-gnome-terminal', 'xdg-desktop-portal-gnome', 'com-transmissionbt-transmission', 'io-github-mahmoudbahaa-outlook-for-linux', 'org-gnome-extensions', 'com-github-ismaelmartinez-teams-for-linux', 'nordvpn-gui', 'org-gnome-screenshot', 'org-gnome-fileroller', 'org-gnome-calculator', 'org-gnome-eog', 'org-gnome-systemmonitor', 'org-gnome-evolution-alarm-notify', 'com-ticktick-ticktick', 'org-signal-signal', 'io-github-cosmic-utils-camera', 'io-github-mimbrero-whatsappdesktop', 'vlc', 'com-github-artemanufrij-playmyvideos', 'io-github-celluloid-player-celluloid', 'io-github-diegopvlk-cine', 'org-gnome-gedit', 'org-gnome-diskutility', 'org-gnome-goa-daemon', 'org-audacityteam-audacity', 'insync', 'org-standardnotes-standardnotes', 'com-rtosta-zapzap']
 show-banners=true
 show-in-lock-screen=false
 
@@ -116,6 +116,9 @@ application-id='com.github.eneshecan.WhatsAppForLinux.desktop'
 
 [desktop/notifications/application/com-github-ismaelmartinez-teams-for-linux]
 application-id='com.github.IsmaelMartinez.teams_for_linux.desktop'
+
+[desktop/notifications/application/com-rtosta-zapzap]
+application-id='com.rtosta.zapzap.desktop'
 
 [desktop/notifications/application/com-spotify-client]
 application-id='com.spotify.Client.desktop'
@@ -397,12 +400,12 @@ include-pointer=false
 
 [gnome-system-monitor]
 cpu-colors=[(uint32 0, '#e01b24'), (1, '#ff7800'), (2, '#f6d32d'), (3, '#33d17a'), (4, '#26a269'), (5, '#62a0ea'), (6, '#1c71d8'), (7, '#613583'), (8, '#9141ac'), (9, '#c061cb'), (10, '#ffbe6f'), (11, '#f9f06b'), (12, '#8ff0a4'), (13, '#2ec27e'), (14, '#1a5fb4'), (15, '#c061cb'), (16, '#f332a6767999'), (17, '#82fb7999f332'), (18, '#93b2f3327999'), (19, '#f3327999b72d'), (20, '#7999daa8f332'), (21, '#f332e8407999'), (22, '#c4c47999f332'), (23, '#7999f332a149'), (24, '#f3327dce7999'), (25, '#799998dff332'), (26, '#bc5af3327999'), (27, '#f3327999dfd6')]
-current-tab='processes'
+current-tab='resources'
 maximized=false
 show-dependencies=false
 show-whose-processes='user'
-window-height=1152
-window-width=919
+window-height=572
+window-width=620
 
 [gnome-system-monitor/proctree]
 col-26-visible=false
@@ -445,11 +448,19 @@ migrated-gtk-settings=true
 show-create-link=true
 
 [nautilus/window-state]
-initial-size=(910, 548)
+initial-size=(454, 380)
 initial-size-file-chooser=(910, 572)
 maximized=false
 
+[nm-applet/eap/422ee490-7951-492b-bc8e-0f7a5c38fb43]
+ignore-ca-cert=true
+ignore-phase2-ca-cert=false
+
 [nm-applet/eap/a0643bd0-adbe-4259-ad7a-0df87613d30a]
+ignore-ca-cert=true
+ignore-phase2-ca-cert=false
+
+[nm-applet/eap/b6372333-4892-4e5b-91e7-325778ffb327]
 ignore-ca-cert=true
 ignore-phase2-ca-cert=false
 
@@ -506,12 +517,12 @@ sleep-inactive-ac-type='suspend'
 
 [shell]
 always-show-log-out=true
-app-picker-layout=[{'org.gnome.gedit.desktop': <{'position': <0>}>, 'org.gnome.Calculator.desktop': <{'position': <1>}>, 'snapper-tools.desktop': <{'position': <2>}>, 'org.chromium.Chromium.flextop.chrome-bilbddlfkgindpeheeehpibihecdejaj-Default.desktop': <{'position': <3>}>, 'me.proton.Pass.desktop': <{'position': <4>}>, 'org.gnome.Extensions.desktop': <{'position': <5>}>, 'io.github.cosmic_utils.camera.desktop': <{'position': <6>}>, 'htop.desktop': <{'position': <7>}>, 'org.audacityteam.Audacity.desktop': <{'position': <8>}>, 'app.drey.Dialect.desktop': <{'position': <9>}>, 'org.chromium.Chromium.flextop.chrome-dpfjbdgchebdjjcpagmbnaaiflcdglnm-Default.desktop': <{'position': <10>}>, 'solaar.desktop': <{'position': <11>}>, 'org.qbittorrent.qBittorrent.desktop': <{'position': <12>}>, 'org.gnome.SystemMonitor.desktop': <{'position': <13>}>, 'com.transmissionbt.Transmission.desktop': <{'position': <14>}>, 'org.zotero.Zotero.desktop': <{'position': <15>}>, 'com.vysp3r.ProtonPlus.desktop': <{'position': <16>}>, 'com.visualstudio.code.desktop': <{'position': <17>}>, 'garuda-system-maintenance-settings.desktop': <{'position': <18>}>, 'vim.desktop': <{'position': <19>}>, 'gemini-desktop_gemini-desktop.desktop': <{'position': <20>}>, 'org.chromium.Chromium.flextop.chrome-gjcmcplpgihbecacndmmbaenpfgimlec-Default.desktop': <{'position': <21>}>, 'org.standardnotes.standardnotes.desktop': <{'position': <22>}>, 'nordvpn-gui.desktop': <{'position': <23>}>}, {'org.manjaro.pamac.manager.desktop': <{'position': <0>}>, 'garuda-toolbox.desktop': <{'position': <1>}>, 'org.gnome.Evince.desktop': <{'position': <2>}>, 'com.libretro.RetroArch.desktop': <{'position': <3>}>, 'balena-etcher.desktop': <{'position': <4>}>, 'megasync.desktop': <{'position': <5>}>, 'nordvpn_nordvpn-gui.desktop': <{'position': <6>}>, 'org.chromium.Chromium.flextop.chrome-eppojlglocelodeimnohnlnionkobfln-Default.desktop': <{'position': <7>}>, 'us.zoom.Zoom.desktop': <{'position': <8>}>, 'com.protonvpn.www.desktop': <{'position': <9>}>, 'vlc.desktop': <{'position': <10>}>, 'io.github.celluloid_player.Celluloid.desktop': <{'position': <11>}>, 'io.github.diegopvlk.Cine.desktop': <{'position': <12>}>, 'mpv.desktop': <{'position': <13>}>, 'libreoffice-writer.desktop': <{'position': <14>}>, 'gimp.desktop': <{'position': <15>}>, 'org.inkscape.Inkscape.desktop': <{'position': <16>}>, 'libreoffice-startcenter.desktop': <{'position': <17>}>, 'libreoffice-base.desktop': <{'position': <18>}>, '6a49abd0-d1f2-41cf-b9d6-e0481c5350ba': <{'position': <19>}>, 'libreoffice-calc.desktop': <{'position': <20>}>, 'libreoffice-impress.desktop': <{'position': <21>}>, 'libreoffice-math.desktop': <{'position': <22>}>, 'io.freetubeapp.FreeTube.desktop': <{'position': <23>}>}, {'libreoffice-draw.desktop': <{'position': <0>}>, 'proton-authenticator.desktop': <{'position': <1>}>, 'firefox.desktop': <{'position': <2>}>, 'com.github.tchx84.Flatseal.desktop': <{'position': <3>}>, 'com.ticktick.TickTick.desktop': <{'position': <4>}>, 'cxmenu-cxoffice-0-29ra4ke-CrossOver.desktop': <{'position': <5>}>, 'org.gnome.Settings.desktop': <{'position': <6>}>}]
+app-picker-layout=[{'org.gnome.gedit.desktop': <{'position': <0>}>, 'org.gnome.Calculator.desktop': <{'position': <1>}>, 'snapper-tools.desktop': <{'position': <2>}>, 'org.chromium.Chromium.flextop.chrome-bilbddlfkgindpeheeehpibihecdejaj-Default.desktop': <{'position': <3>}>, 'me.proton.Pass.desktop': <{'position': <4>}>, 'org.gnome.Extensions.desktop': <{'position': <5>}>, 'io.github.cosmic_utils.camera.desktop': <{'position': <6>}>, 'htop.desktop': <{'position': <7>}>, 'org.audacityteam.Audacity.desktop': <{'position': <8>}>, 'app.drey.Dialect.desktop': <{'position': <9>}>, 'org.chromium.Chromium.flextop.chrome-dpfjbdgchebdjjcpagmbnaaiflcdglnm-Default.desktop': <{'position': <10>}>, 'solaar.desktop': <{'position': <11>}>, 'org.qbittorrent.qBittorrent.desktop': <{'position': <12>}>, 'org.gnome.SystemMonitor.desktop': <{'position': <13>}>, 'com.transmissionbt.Transmission.desktop': <{'position': <14>}>, 'org.zotero.Zotero.desktop': <{'position': <15>}>, 'com.vysp3r.ProtonPlus.desktop': <{'position': <16>}>, 'com.visualstudio.code.desktop': <{'position': <17>}>, 'garuda-system-maintenance-settings.desktop': <{'position': <18>}>, 'vim.desktop': <{'position': <19>}>, 'gemini-desktop_gemini-desktop.desktop': <{'position': <20>}>, 'org.chromium.Chromium.flextop.chrome-gjcmcplpgihbecacndmmbaenpfgimlec-Default.desktop': <{'position': <21>}>, 'org.standardnotes.standardnotes.desktop': <{'position': <22>}>, 'nordvpn-gui.desktop': <{'position': <23>}>}, {'org.manjaro.pamac.manager.desktop': <{'position': <0>}>, 'garuda-toolbox.desktop': <{'position': <1>}>, 'org.gnome.Evince.desktop': <{'position': <2>}>, 'com.libretro.RetroArch.desktop': <{'position': <3>}>, 'balena-etcher.desktop': <{'position': <4>}>, 'megasync.desktop': <{'position': <5>}>, 'nordvpn_nordvpn-gui.desktop': <{'position': <6>}>, 'org.chromium.Chromium.flextop.chrome-eppojlglocelodeimnohnlnionkobfln-Default.desktop': <{'position': <7>}>, 'us.zoom.Zoom.desktop': <{'position': <8>}>, 'com.protonvpn.www.desktop': <{'position': <9>}>, 'vlc.desktop': <{'position': <10>}>, 'io.github.celluloid_player.Celluloid.desktop': <{'position': <11>}>, 'io.github.diegopvlk.Cine.desktop': <{'position': <12>}>, 'mpv.desktop': <{'position': <13>}>, 'libreoffice-writer.desktop': <{'position': <14>}>, 'gimp.desktop': <{'position': <15>}>, 'org.inkscape.Inkscape.desktop': <{'position': <16>}>, 'libreoffice-startcenter.desktop': <{'position': <17>}>, 'libreoffice-base.desktop': <{'position': <18>}>, '6a49abd0-d1f2-41cf-b9d6-e0481c5350ba': <{'position': <19>}>, 'libreoffice-calc.desktop': <{'position': <20>}>, 'libreoffice-impress.desktop': <{'position': <21>}>, 'libreoffice-math.desktop': <{'position': <22>}>, 'io.freetubeapp.FreeTube.desktop': <{'position': <23>}>}, {'libreoffice-draw.desktop': <{'position': <0>}>, 'proton-authenticator.desktop': <{'position': <1>}>, 'firefox.desktop': <{'position': <2>}>, 'com.github.tchx84.Flatseal.desktop': <{'position': <3>}>, 'com.ticktick.TickTick.desktop': <{'position': <4>}>, 'cxmenu-cxoffice-0-29ra4ke-CrossOver.desktop': <{'position': <5>}>, 'org.gnome.Settings.desktop': <{'position': <6>}>, 'forticlient.desktop': <{'position': <7>}>, 'btop.desktop': <{'position': <8>}>, 'com.rtosta.zapzap.desktop': <{'position': <9>}>, 'org.telegram.desktop.desktop': <{'position': <10>}>}]
 disable-extension-version-validation=true
 disable-user-extensions=false
-disabled-extensions=['places-menu@gnome-shell-extensions.gcampax.github.com', 'window-list@gnome-shell-extensions.gcampax.github.com', 'windowsNavigator@gnome-shell-extensions.gcampax.github.com', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'native-window-placement@gnome-shell-extensions.gcampax.github.com', 'status-icons@gnome-shell-extensions.gcampax.github.com', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'workspace-indicator@gnome-shell-extensions.gcampax.github.com', 'impatience@gfxmonk.net', 'wintile-beyond@GrylledCheez.xyz', 'window-chaos@willnotbyte', 'forge@jmmaranan.com', 'task-widget@juozasmiskinis.gitlab.io', 'auto-move-windows@gnome-shell-extensions.gcampax.github.com']
-enabled-extensions=['appindicatorsupport@rgcjonas.gmail.com', 'paperwm@paperwm.github.com', 'system-monitor@gnome-shell-extensions.gcampax.github.com', 'screenshot-window-sizer@gnome-shell-extensions.gcampax.github.com', 'sound-output-device-chooser@kgshank.net', 'openweather-extension@jenslody.de', 'pomodoro@arun.codito.in', 'gSnap@micahosborne', 'display-brightness-ddcutil@themightydeity.github.com', 'live-lockscreen@nick-redwill', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'advanced-weather@sanjai.com', 'gsconnect@andyholmes.github.io', 'custom-vpn-toggler@giteduberger.fr', 'blur-me@nunchucks', 'youtube-float-window@exsul', 'web_search_dialog@awamper.gmail.com', 'update-extensions@franglais125.gmail.com', 'transparenttopbar@peclu.net', 'transparent_panel@fawtytoo', 'transparent-shell@siroj42.github.io', 'tofumenu@tofu', 'transparent-top-bar@ftpix.com', 'suspend-to-topbar@zeplia.com', 'suspend-to-topbar@madebysteven.nl', 'LeftClock@adityashrivastava.tk', 'clipboard-indicator@Dieg0Js.github.io', 'clipboard-indicator@tudmotu.com', 'caffeine@patapon.info', 'burn-my-windows@schneegans.github.com', 'pop-shell@system76.com', 'just-perfection-desktop@just-perfection', 'dash-to-dock@micxgx.gmail.com', 'blur-my-shell@aunetx', 'tasks-in-panel@fthx', 'window-title-in-topbar@fthx', 'AddCustomTextToWorkSpaceIndicators@pratap.fastmail.fm', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'pamac-updates@manjaro.org', 'dynamic-music-pill@andbal', 'top-panel-logo@jmpegi.github.com']
-favorite-apps=['org.gnome.Nautilus.desktop', 'org.gnome.Terminal.desktop', 'com.spotify.Client.desktop', 'com.getmailspring.Mailspring.desktop', 'com.github.IsmaelMartinez.teams_for_linux.desktop', 'org.chromium.Chromium.flextop.chrome-jnpecgipniidlgicjocehkhajgdnjekh-Default.desktop', 'org.chromium.Chromium.flextop.chrome-eiplpifnmhcbkpgnjeikdpnnaoinoeok-Default.desktop', 'org.chromium.Chromium.flextop.chrome-gjoaplgcpnmemdaklplebdapjihcoibe-Default.desktop', 'io.github.mimbrero.WhatsAppDesktop.desktop', 'org.telegram.desktop.desktop', 'org.chromium.Chromium.desktop', 'org.onlyoffice.desktopeditors.desktop', 'com.valvesoftware.Steam.desktop', 'org.gnome.Boxes.desktop', 'insync.desktop', 'org.signal.Signal.desktop']
+disabled-extensions=['window-list@gnome-shell-extensions.gcampax.github.com', 'windowsNavigator@gnome-shell-extensions.gcampax.github.com', 'workspace-indicator@gnome-shell-extensions.gcampax.github.com', 'impatience@gfxmonk.net', 'wintile-beyond@GrylledCheez.xyz', 'window-chaos@willnotbyte', 'forge@jmmaranan.com', 'task-widget@juozasmiskinis.gitlab.io', 'status-icons@gnome-shell-extensions.gcampax.github.com', 'native-window-placement@gnome-shell-extensions.gcampax.github.com', 'light-style@gnome-shell-extensions.gcampax.github.com', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com']
+enabled-extensions=['appindicatorsupport@rgcjonas.gmail.com', 'paperwm@paperwm.github.com', 'system-monitor@gnome-shell-extensions.gcampax.github.com', 'screenshot-window-sizer@gnome-shell-extensions.gcampax.github.com', 'sound-output-device-chooser@kgshank.net', 'openweather-extension@jenslody.de', 'pomodoro@arun.codito.in', 'gSnap@micahosborne', 'display-brightness-ddcutil@themightydeity.github.com', 'live-lockscreen@nick-redwill', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'advanced-weather@sanjai.com', 'gsconnect@andyholmes.github.io', 'custom-vpn-toggler@giteduberger.fr', 'blur-me@nunchucks', 'youtube-float-window@exsul', 'web_search_dialog@awamper.gmail.com', 'update-extensions@franglais125.gmail.com', 'transparenttopbar@peclu.net', 'transparent_panel@fawtytoo', 'transparent-shell@siroj42.github.io', 'tofumenu@tofu', 'transparent-top-bar@ftpix.com', 'suspend-to-topbar@zeplia.com', 'suspend-to-topbar@madebysteven.nl', 'LeftClock@adityashrivastava.tk', 'clipboard-indicator@Dieg0Js.github.io', 'clipboard-indicator@tudmotu.com', 'caffeine@patapon.info', 'burn-my-windows@schneegans.github.com', 'pop-shell@system76.com', 'just-perfection-desktop@just-perfection', 'dash-to-dock@micxgx.gmail.com', 'blur-my-shell@aunetx', 'tasks-in-panel@fthx', 'window-title-in-topbar@fthx', 'AddCustomTextToWorkSpaceIndicators@pratap.fastmail.fm', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'pamac-updates@manjaro.org', 'dynamic-music-pill@andbal', 'top-panel-logo@jmpegi.github.com', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'auto-move-windows@gnome-shell-extensions.gcampax.github.com']
+favorite-apps=['org.gnome.Nautilus.desktop', 'org.gnome.Terminal.desktop', 'com.spotify.Client.desktop', 'com.getmailspring.Mailspring.desktop', 'com.github.IsmaelMartinez.teams_for_linux.desktop', 'org.chromium.Chromium.flextop.chrome-jnpecgipniidlgicjocehkhajgdnjekh-Default.desktop', 'org.chromium.Chromium.flextop.chrome-eiplpifnmhcbkpgnjeikdpnnaoinoeok-Default.desktop', 'org.chromium.Chromium.flextop.chrome-gjoaplgcpnmemdaklplebdapjihcoibe-Default.desktop', 'org.chromium.Chromium.desktop', 'org.onlyoffice.desktopeditors.desktop', 'com.valvesoftware.Steam.desktop', 'org.gnome.Boxes.desktop', 'insync.desktop', 'org.signal.Signal.desktop']
 last-selected-power-profile='performance'
 welcome-dialog-last-shown-version='49.4'
 
@@ -567,10 +578,11 @@ last-extension-version=48
 prefs-open-count=2
 
 [shell/extensions/caffeine]
-cli-toggle=true
-indicator-position-max=1
+cli-toggle=false
+indicator-position-max=4
 show-indicator='only-active'
 show-toggle=true
+user-enabled=false
 
 [shell/extensions/dash-to-dock]
 always-center-icons=true
@@ -676,27 +688,43 @@ window-toggle-float=@as []
 workspace-active-tile-toggle=@as []
 
 [shell/extensions/gsconnect]
-devices=['8f7e62d74cbf4193bee1ba4d54d6b943']
+devices=['889d523bef854c93b9ba6086ac3e00c4']
 enabled=false
 missing-openssl=false
 name='HSMPC'
 
-[shell/extensions/gsconnect/device/8f7e62d74cbf4193bee1ba4d54d6b943]
-certificate-pem='-----BEGIN CERTIFICATE-----\nMIIBnzCCAUWgAwIBAgIVAJ7nBf/cODZBFZ+Ch2CJR/Wqh/EaMAoGCCqGSM49BAME\nME8xKTAnBgNVBAMMIDhmN2U2MmQ3NGNiZjQxOTNiZWUxYmE0ZDU0ZDZiOTQzMQww\nCgYDVQQKDANLREUxFDASBgNVBAsMC0tERSBDb25uZWN0MB4XDTI1MDUxNzIzMzY1\nN1oXDTM2MDUxNDIzMzY1N1owTzEpMCcGA1UEAwwgOGY3ZTYyZDc0Y2JmNDE5M2Jl\nZTFiYTRkNTRkNmI5NDMxDDAKBgNVBAoMA0tERTEUMBIGA1UECwwLS0RFIENvbm5l\nY3QwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAASvuTHkuf0Td8Igk03VR0swfryJ\nz821bwtanUQ8hv6lafWzXDXG/CcayXdabXpPfehzIKkLr6Qe6B51MMWGTRt/MAoG\nCCqGSM49BAMEA0gAMEUCICS0zz1SLCnBssmZaEU1QIl5bRuh+x1FnYYDljifwDZg\nAiEAmWtHB54bVrKvvQJoWJ3KkZRf0E4+4jEbWzcyBfIhnI0=\n-----END CERTIFICATE-----\n'
-incoming-capabilities=['kdeconnect.battery', 'kdeconnect.clipboard', 'kdeconnect.clipboard.connect', 'kdeconnect.clipboard.file', 'kdeconnect.connectivity_report', 'kdeconnect.contacts.response_uids_timestamps', 'kdeconnect.contacts.response_vcards', 'kdeconnect.digitizer', 'kdeconnect.digitizer.session', 'kdeconnect.findmyphone.request', 'kdeconnect.lock', 'kdeconnect.lock.request', 'kdeconnect.mousepad.echo', 'kdeconnect.mousepad.keyboardstate', 'kdeconnect.mousepad.request', 'kdeconnect.mpris', 'kdeconnect.mpris.request', 'kdeconnect.notification', 'kdeconnect.notification.request', 'kdeconnect.ping', 'kdeconnect.presenter', 'kdeconnect.runcommand', 'kdeconnect.runcommand.request', 'kdeconnect.sftp', 'kdeconnect.share.request', 'kdeconnect.shareinputdevices', 'kdeconnect.shareinputdevices.request', 'kdeconnect.sms.attachment_file', 'kdeconnect.sms.messages', 'kdeconnect.systemvolume', 'kdeconnect.systemvolume.request', 'kdeconnect.telephony', 'kdeconnect.telephony.request_mute', 'kdeconnect.virtualmonitor', 'kdeconnect.virtualmonitor.request']
-last-connection='lan://130.216.116.252:1716'
-name='HSMTop'
-outgoing-capabilities=['kdeconnect.battery', 'kdeconnect.clipboard', 'kdeconnect.clipboard.connect', 'kdeconnect.clipboard.file', 'kdeconnect.contacts.request_all_uids_timestamps', 'kdeconnect.contacts.request_vcards_by_uid', 'kdeconnect.findmyphone.request', 'kdeconnect.lock', 'kdeconnect.lock.request', 'kdeconnect.mousepad.keyboardstate', 'kdeconnect.mousepad.request', 'kdeconnect.mpris', 'kdeconnect.mpris.request', 'kdeconnect.notification', 'kdeconnect.notification.action', 'kdeconnect.notification.reply', 'kdeconnect.notification.request', 'kdeconnect.ping', 'kdeconnect.runcommand', 'kdeconnect.runcommand.request', 'kdeconnect.sftp.request', 'kdeconnect.share.request', 'kdeconnect.share.request.update', 'kdeconnect.shareinputdevices', 'kdeconnect.shareinputdevices.request', 'kdeconnect.sms.request', 'kdeconnect.sms.request_attachment', 'kdeconnect.sms.request_conversation', 'kdeconnect.sms.request_conversations', 'kdeconnect.systemvolume', 'kdeconnect.systemvolume.request', 'kdeconnect.telephony', 'kdeconnect.telephony.request_mute', 'kdeconnect.virtualmonitor', 'kdeconnect.virtualmonitor.request']
+[shell/extensions/gsconnect/device/889d523bef854c93b9ba6086ac3e00c4]
+certificate-pem='-----BEGIN CERTIFICATE-----\nMIIBizCCATGgAwIBAgIBATAKBggqhkjOPQQDBDBPMSkwJwYDVQQDDCA4ODlkNTIz\nYmVmODU0YzkzYjliYTYwODZhYzNlMDBjNDEUMBIGA1UECwwLS0RFIENvbm5lY3Qx\nDDAKBgNVBAoMA0tERTAeFw0yNTA1MTUxMjAwMDBaFw0zNjA1MTUxMjAwMDBaME8x\nKTAnBgNVBAMMIDg4OWQ1MjNiZWY4NTRjOTNiOWJhNjA4NmFjM2UwMGM0MRQwEgYD\nVQQLDAtLREUgQ29ubmVjdDEMMAoGA1UECgwDS0RFMFkwEwYHKoZIzj0CAQYIKoZI\nzj0DAQcDQgAEP2JgYM2TzUoCJatheFKDa1bNJ6ADL0byUmpTyMNQwU05K7sERpW/\n2lde3iKz/0/O23sFPLmCu/DPtjMKxPsy+zAKBggqhkjOPQQDBANIADBFAiEAgXaS\nPNlc8oDuaoxwCUhgGK+YO5hsLxBCbGUFb7EtePwCIDlP+wCmjvm2fk5xeUtKxTyk\niQnHRgl9jbNlohf9Gux1\n-----END CERTIFICATE-----\n'
+incoming-capabilities=['kdeconnect.battery', 'kdeconnect.clipboard', 'kdeconnect.clipboard.connect', 'kdeconnect.contacts.request_all_uids_timestamps', 'kdeconnect.contacts.request_vcards_by_uid', 'kdeconnect.findmyphone.request', 'kdeconnect.mousepad.keyboardstate', 'kdeconnect.mousepad.request', 'kdeconnect.mpris', 'kdeconnect.mpris.request', 'kdeconnect.notification', 'kdeconnect.notification.action', 'kdeconnect.notification.reply', 'kdeconnect.notification.request', 'kdeconnect.ping', 'kdeconnect.runcommand', 'kdeconnect.sftp.request', 'kdeconnect.share.request', 'kdeconnect.share.request.update', 'kdeconnect.shareinputdevices.request', 'kdeconnect.sms.request', 'kdeconnect.sms.request_attachment', 'kdeconnect.sms.request_conversation', 'kdeconnect.sms.request_conversations', 'kdeconnect.systemvolume', 'kdeconnect.telephony.request_mute']
+keybindings=@a{ss} {}
+last-connection='lan://172.30.97.166:1716'
+name='HSMPhone'
+outgoing-capabilities=['kdeconnect.battery', 'kdeconnect.clipboard', 'kdeconnect.clipboard.connect', 'kdeconnect.connectivity_report', 'kdeconnect.contacts.response_uids_timestamps', 'kdeconnect.contacts.response_vcards', 'kdeconnect.digitizer', 'kdeconnect.digitizer.session', 'kdeconnect.findmyphone.request', 'kdeconnect.mousepad.echo', 'kdeconnect.mousepad.keyboardstate', 'kdeconnect.mousepad.request', 'kdeconnect.mpris', 'kdeconnect.mpris.request', 'kdeconnect.notification', 'kdeconnect.notification.request', 'kdeconnect.ping', 'kdeconnect.presenter', 'kdeconnect.runcommand.request', 'kdeconnect.sftp', 'kdeconnect.share.request', 'kdeconnect.shareinputdevices', 'kdeconnect.sms.attachment_file', 'kdeconnect.sms.messages', 'kdeconnect.systemvolume.request', 'kdeconnect.telephony']
 paired=true
-supported-plugins=['battery', 'clipboard', 'findmyphone', 'mousepad', 'mpris', 'notification', 'ping', 'runcommand', 'share', 'systemvolume', 'telephony']
-type='desktop'
+supported-plugins=['battery', 'clipboard', 'connectivity_report', 'contacts', 'findmyphone', 'mousepad', 'mpris', 'notification', 'ping', 'presenter', 'runcommand', 'sftp', 'share', 'sms', 'systemvolume', 'telephony']
+type='phone'
 
-[shell/extensions/gsconnect/device/8f7e62d74cbf4193bee1ba4d54d6b943/plugin/notification]
-applications='{"Power":{"iconName":"","enabled":true},"KDE Connect":{"iconName":"kdeconnect","enabled":true},"Chromium":{"iconName":"file:///tmp/org.chromium.Chromium.scoped_dir.xhcRFi/logo.png","enabled":true}}'
+[shell/extensions/gsconnect/device/889d523bef854c93b9ba6086ac3e00c4/plugin/battery]
+custom-battery-notification=true
+custom-battery-notification-value=uint32 80
+full-battery-notification=true
+
+[shell/extensions/gsconnect/device/889d523bef854c93b9ba6086ac3e00c4/plugin/notification]
+applications='{"Printers":{"iconName":"org.gnome.Settings-printers-symbolic","enabled":true},"Mailspring":{"iconName":"com.getmailspring.Mailspring","enabled":true},"Events and Tasks Reminders":{"iconName":"org.gnome.Evolution-alarm-notify","enabled":true},"Solaar":{"iconName":"solaar","enabled":true},"Telegram":{"iconName":"org.telegram.desktop","enabled":true},"Add/Remove Software":{"iconName":"system-software-install","enabled":true},"Snapd User Session Agent":{"iconName":"/usr/share/snapd/snapcraft-logo-bird.svg","enabled":true},"Disks":{"iconName":"org.gnome.DiskUtility","enabled":true},"Date & Time":{"iconName":"org.gnome.Settings-time-symbolic","enabled":true},"ZapZap":{"iconName":"com.rtosta.zapzap","enabled":true},"Online Accounts":{"iconName":"org.gnome.goa-daemon-symbolic","enabled":true},"Power":{"iconName":"org.gnome.Settings-power-symbolic","enabled":true},"Colour Management":{"iconName":"org.gnome.Settings-color-symbolic","enabled":true},"Spotify":{"iconName":"com.spotify.Client","enabled":true},"Camera":{"iconName":"io.github.cosmic_utils.camera","enabled":true},"Files":{"iconName":"org.gnome.Nautilus","enabled":true},"File Roller":{"iconName":"org.gnome.FileRoller","enabled":true}}'
+
+[shell/extensions/gsconnect/device/889d523bef854c93b9ba6086ac3e00c4/plugin/share]
+launch-urls=true
+receive-directory='/home/hsm/Downloads'
+
+[shell/extensions/gsconnect/device/889d523bef854c93b9ba6086ac3e00c4/plugin/sms]
+legacy-sms=true
+
+[shell/extensions/gsconnect/device/889d523bef854c93b9ba6086ac3e00c4/plugin/telephony]
+ringing-pause=true
 
 [shell/extensions/gsconnect/preferences]
 window-maximized=false
-window-size=(640, 550)
+window-size=(761, 323)
 
 [shell/extensions/just-perfection]
 accent-color-icon=true
@@ -759,7 +787,7 @@ index=2
 [shell/extensions/pop-shell]
 active-hint=true
 focus-right=['<Super>Right']
-hint-color-rgba='rgb(168,1,232)'
+hint-color-rgba='rgb(255,172,4)'
 tile-by-default=true
 
 [shell/extensions/task-widget]

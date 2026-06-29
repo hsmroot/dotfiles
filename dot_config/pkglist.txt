@@ -39,6 +39,7 @@ ethtool
 evince
 ex-vi-compat
 exfatprogs
+extension-manager
 f2fs-tools
 fail2ban
 fatresize
@@ -94,7 +95,12 @@ gnome-screenshot
 gnome-session
 gnome-settings-daemon
 gnome-shell
+gnome-shell-extension-blur-my-shell
+gnome-shell-extension-caffeine
+gnome-shell-extension-gsconnect
+gnome-shell-extension-just-perfection-desktop
 gnome-shell-extension-pop-shell-git
+gnome-shell-extension-runcat
 gnome-shell-extensions
 gnome-system-monitor
 gnome-terminal
