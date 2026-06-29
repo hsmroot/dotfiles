@@ -1,0 +1,17 @@
+dash-to-dock@micxgx.gmail.com
+advanced-weather@sanjai.com
+just-perfection-desktop@just-perfection
+clipboard-indicator@tudmotu.com
+caffeine@patapon.info
+blur-my-shell@aunetx
+burn-my-windows@schneegans.github.com
+appindicatorsupport@rgcjonas.gmail.com
+dynamic-music-pill@andbal
+top-panel-logo@jmpegi.github.com
+AddCustomTextToWorkSpaceIndicators@pratap.fastmail.fm
+apps-menu@gnome-shell-extensions.gcampax.github.com
+screenshot-window-sizer@gnome-shell-extensions.gcampax.github.com
+system-monitor@gnome-shell-extensions.gcampax.github.com
+user-theme@gnome-shell-extensions.gcampax.github.com
+pamac-updates@manjaro.org
+pop-shell@system76.com
