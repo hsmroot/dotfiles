@@ -11,6 +11,7 @@ betterfetch-git
 bind
 bluetooth-support
 bridge-utils
+btop
 btrfs-assistant
 btrfs-progs
 bzip2

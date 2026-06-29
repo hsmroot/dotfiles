@@ -4,6 +4,7 @@ com.github.IsmaelMartinez.teams_for_linux
 com.github.artemanufrij.playmyvideos
 com.github.tchx84.Flatseal
 com.protonvpn.www
+com.rtosta.zapzap
 com.spotify.Client
 com.ticktick.TickTick
 com.transmissionbt.Transmission
@@ -13,7 +14,6 @@ com.vysp3r.ProtonPlus
 io.freetubeapp.FreeTube
 io.github.cosmic_utils.camera
 io.github.diegopvlk.Cine
-io.github.mimbrero.WhatsAppDesktop
 me.proton.Pass
 org.audacityteam.Audacity
 org.chromium.Chromium
